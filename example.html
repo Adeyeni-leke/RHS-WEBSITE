@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Redeemer's High School</title>
+    <link rel="stylesheet" href="css/landing_page.css" type="text/css">
+
+ <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+       
+       
+       
+        <style>
+       /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+  
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  
+    
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ /* header and menu codes */
+    .rot{
+
+        margin-top: 150px;
+        font-family: sans-serif;
+        text-align: justify;
+    }
+    .prin_top{
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+   .mli{
+        border-bottom:1px solid grey;
+        border-radius: 2px;
+        padding-bottom: 5px;
+    }
+    .mli >li{
+        
+    padding-left: 50px;
+        font-size: 16px;
+        
+    }
+    li :hover{
+        border-bottom: 3px solid green;
+    }
+    .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    // pointer-events: none;
+}
+    .line{
+        border-bottom: 3px solid green;
+    }
+    .box-shadow{
+        transition: .3s;
+    }
+    
+    
+    
+    .box{
+        margin-top: 12%;
+    }
+    .single-content{
+        position: relative;
+        transition: .3s;
+        box-shadow: 10px 20px 20px rgba(0,0,0,0.8);
+    }
+    .single-content .text-content, .single-content:after{
+        position: absolute;
+        left:20px;
+        right:20px;
+    }
+    .single-content:after{
+        content:'';
+        display:block;
+        background: crimson;
+        top:20px;
+        bottom:20px;
+        opacity: 0;
+        transform: rotate3d(-1,1,0,100deg);
+        transition: .4s;
+    }
+    .single-content:hover:after{
+        opacity:.9;
+        transform:rotate3d(0,0,0,0deg);
+    }
+    .single-content img{
+        width: 100%;
+        height:auto;
+    }
+    .text-content{
+        top:45%;
+        opacity:0;
+        z-index: 1;
+        transform: translate(10%,-30%);
+        transition: .3s;
+        text-align: center;
+        color: #17ea17;
+    }
+    
+    .text-content h4{
+        font-family: big john;
+    }
+    
+    .single-content:hover .text-content{
+        opacity: 1;
+        content: 'English LAnguage';
+        transform: translate(0,-50%);
+        transition-delay: .3s;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+  
+}
+        
+      </style>
+  </head>
+
+  <body>
+     
+        <header class="cover">
+         
+         <!--carousal slider image-->
+         <div class="container-fluid">
+         <div class="row">
+         <div id="carouselExampleIndicators" class="carousel slide  pointer-event" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="7000">
+      <img class="d-block img-fluid " src="images/slider3.jpg" alt="First slide">
+    </div>
+    <div class="carousel-caption d-none d-md-block">
+                 <h5>Word Of wisdom Written By Me</h5>
+                 <p>RHS leads the other school</p>
+    </div>
+       
+    <div class="carousel-item" data-interval="7000">
+      <img class="img-fluid" src="images/slider2.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-caption d-none d-md-block">
+                 <h5>Word Of wisdom Written By Me</h5>
+                 <p>RHS leads the other school</p>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+             </div>
+             </div>
+             
+         <!-- carousel slider header close-->
+      </header>          
+             <!--menu bar-->
+        
+      
+       
+         
+        <div class="container-fluid">
+        <div class="row"></div>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          
+          <!--menu header start second-menu-->
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mli">
+<li class="nav-item ">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        
+<li class="nav-item active ">
+          <a class="nav-link line" href="#">About</a>
+        </li>
+        
+<li class="nav-item dropdown" data-toggle="dropdown" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" class="nav-link" >Admission</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a href="#" class="dropdown-item">Seek Admission</a>
+                        <a href="#" class="dropdown-item">Tution Fee</a>
+                        <a href="#" class="dropdown-item">Admission List</a>
+                        <a href="#"class="dropdown-item">Entrance Examination</a>
+                        <a href="#"class="dropdown-item">Online Application</a>
+                    </div>
+                </li>
+                
+<li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">Portal</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Student Portal</a>
+                        <a href="#" class="dropdown-item">Staff Portal</a>
+                        <a href="#" class="dropdown-item">Parent Portal</a>
+                        <a href="#"class="dropdown-item">Examination Portal</a>
+                        <a href="#"class="dropdown-item">New Student login</a>
+                    </div>
+                </li>
+                
+<li class="nav-item">
+          <a class="nav-link" href="#">Boarding</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">Academic</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">School Anthem</a>
+                        <a href="#" class="dropdown-item">Learning Environment</a>
+                        <a href="#" class="dropdown-item">Library</a>
+                        <a href="#"class="dropdown-item">Term Date</a>
+                        <a href="#"class="dropdown-item">Online Application</a>
+                    </div>
+                </li>
+                
+         <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">News</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Events</a>
+                        <a href="#" class="dropdown-item">Newsletter</a>
+                        <a href="#" class="dropdown-item">RHS Porchcrew</a>
+                    </div>
+                </li>
+                
+      
+        
+        <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">Pastoral</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Student Life</a>
+                        <a href="#" class="dropdown-item">Alumin</a>                        
+                        <a href="#"class="dropdown-item">Pastoral Care</a>
+                    </div>
+                </li>
+
+        <li class="nav-item dropdown">
+                    <a href="#" class="nav-link " data-toggle="dropdown">Gallery</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Facilities</a>
+                        <a href="#" class="dropdown-item">learning Area</a>
+                        <a href="#" class="dropdown-item">Sports</a>
+                        <a href="#"class="dropdown-item">Vocational Studies</a>
+                        <a href="#"class="dropdown-item">Art & Music</a>
+                        <a href="#"class="dropdown-item">Counselling Unit</a>
+                        <a href="#"class="dropdown-item">Publication</a>
+                    </div>
+                </li>
+                
+        <li class="nav-item">
+          <a class="nav-link" href="#">Fee</a>
+        </li>
+</ul>
+</div>
+</div>
+</nav>
+            </div>
+            
+         <!--menu header second-menu close-->
+         
+              <!-- cover image and logo-->
+         <div class="cover-image ">
+             <div class="row">
+            <div class="col">
+                <img src="images/sch-logo.png" class="sch-logo" >
+                <div class="logo-text">
+                <span style="color: #17ea17;"><h4>Welcome to</h4></span>
+                    <span><h1>Redeemer's  <span style="color: #17ea17;">High</span> School</h1></span>
+                    <span><p style="width:460px; text-align: justify">The Redeemer’s High School. Redeemer's High school runs Junior and Secondary program.</p></span>
+                    <span class="explore"><a href="#"><p> &#8592;
+            Explore More</p></a></span>
+                </div>
+            </div>
+             </div>
+         </div>
+         
+         
+   <!-- cover image and logo ends-->
+   
+
+
+
+
+
+  <!-- About Us Start here-->
+  
+  
+  <div class="container rot">
+      <div class="row">
+      
+            
+              
+        
+          <div class="row">
+     
+          <div class="col-sm-6 col-md-8 col-lg-8">
+               <h3 class="prin_top">Principal Message</h3>
+              <p>Redeemer’s High School was established in 1998, as a result of the vision given to Pastor and Pastor (Mrs) E.A Adeboye. The school continues to grow spiritually and academically. This is in line with the vision of the school to raise godly children that would be Change Agents in our Society.</p>
+              
+              <p>The school is located within the serene and the academically conducive environment of the Redeemed Christian Church of God, Redemption Camp, along the Lagos-Ibadan expressway. Aesthetically, the friendly environment helps in molding the character of learners as well as ensuring they acquire appropriate levels of literacy, numeracy, manipulative, communicative and life coping skills.</p>
+              
+              <p>They also acquire ethical, moral and civic values required for laying a solid foundation for lifelong learning. To achieve the above, the school has a strong spiritual and moral foundation for all our students as they are further nurtured by God fearing staff.</p>
+              
+              <p>In addition, the school has excellent facilities to complement the crop of dedicated and qualified teaching staff that has produced excellent results over the years. It is my conviction that your ward’s full potentials will be realized as you make up you mind to enrol them in Redeemer’s High School today.</p>
+          </div>
+          
+          <div class="col-sm-6 col-md-4 col-lg-4">
+              <img src="images/xvvvv.jpg"width="100%" height="auto" >
+          </div>
+                   
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 prin_top">
+              <h3 class="text-center">School Curriculum</h3><br><br>
+              <h5>Junior Secondary School Curriculum</h5>
+          </div>
+          
+         
+         <div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>English-Language</h4>
+              </div>
+          </div> <div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Mathematics</h4>
+              </div>
+          </div> <div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>French Language</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Yoruba Language</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Social Studies </h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Christian Religious Studies</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Computer Studies</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Agricultural Science</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>P.H.E</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>Business Studies</h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4></h4>
+              </div>
+          </div><div class="col-md-4 col-sm-6">
+              <div class="single-content">
+                  <img src="images/slider2.jpg" width="100%" height="300">
+              </div>
+              <div class="text-content">
+                  <h4>And More</h4>
+              </div>
+          </div>
+            
+         
+<div class="view overlay z-depth-1-half">
+  <img src="images/cover1.png" class="card-img-top" alt="">
+  <div class="mask rgba-white-light"></div>
+</div>
+      </div>
+  </div>
+
+  
+  <!-- About Us ends here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 footer-bg text-white">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+    <div class="col-md-3 mb-md-0 mb-3 text-left text-white">
+<img src="images/sch-logo.png" class="img-responsives ml-5">
+        <h4>Redeemer's <span style="color:#1dbf1d">High</span> School</h4>
+        <!-- Content -->
+        <h5>About </h5>
+      <p>Redeemer’s High School is a private Mission School established by the Redeemed Christian Church of God. It is a unique Secondary School.</p>
+
+  
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3 ">
+
+        <!-- Links -->
+          <div> <h5 class="text-uppercase text-center text-white">Quick Links</h5></div>
+
+        <ul class="list-unstyled">
+            <li class="list"><a href="">Boarding</a></li>
+            <li class="list"><a href="">Admission</a></li>
+            <li class="list"><a href="">Portal</a></li>
+            <li class="list"><a href="">Pay Fee</a></li>
+            <li class="list"><a href="">Gallery</a></li>
+            <li class="list"><a href="">News</a></li>
+            <li class="list"><a href="">Meet Principal</a></li>
+            <li class="list"><a href=""></a></li>
+            <li class="list"><a href=""></a></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+<div class="col-md-3 mb-md-0 mb-3 text-white h5">
+   <h6>Testimonies</h6>
+   <blockquote cite="http://www.worldwildlife.org/who/index.html">
+" The school did not only help my ward education it also help my ward in his spiritual life."
+    </blockquote>
+    <strong  style="color: rgb(198, 184, 184)">- Mr Adedapo</strong>
+    <br>
+    <br>
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">  "My husband and son came with me to redeemer's high school. We felt the magic immediately."
+</blockquote>
+    <strong  style="color: rgb(198, 184, 184)">- Mrs Iyanda</strong>
+</div>
+   <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3 text-white h5">
+
+        <!-- Links -->
+        
+           <h6><i class="fas fa-map-marker-alt amber-text pr-3" aria-hidden="true"></i> Our Address</h6>
+        <p>KM 46 Lagos - Ibadan Expressway, Redemption Camp, Ogun State, Nigeria</p>
+           
+             <h6 ><i class="fas fa-phone amber-text pr-3" aria-hidden="true"></i>Phone Line</h6>
+           <p style="color: rgb(198, 184, 184)">+2349030932036</p>
+           
+             <h6><i class="fas fa-user-clock amber-text pr-3" aria-hidden="true"></i>School Hours</h6>
+           <p style="color: rgb(198, 184, 184)">Monday - Friday: 08:00am-04:00pm</p>
+
+      </div>
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+    <a href="https://redeemershighschool.com/"  style="color: rgb(198, 184, 184)">Redeemershighschool.com</a>
+  </div>
+  <!-- Copyright -->
+
+<!-- Footer -->
+    </footer>
+<!--footer end-->
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/typewriter.js"></script>
+  </body>
+</html>

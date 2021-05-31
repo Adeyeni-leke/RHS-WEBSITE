@@ -1,0 +1,459 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Redeemer's High School</title>
+    <link rel="stylesheet" href="css/landing_page.css" type="text/css">
+        <style>
+       /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 992px) { 
+    .classes{
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    .img h2{
+        font-size:18px;
+        margin-top: 40px;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+      .rot{
+        margin-top: 50px;
+        font-family: sans-serif;
+        text-align: justify;
+    }
+    .prin_top{
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+   
+    .mli >li{
+        
+  
+        font-size: 16px;
+        
+    }.mli{
+        border-left:0;
+        border-top:0;
+        border-right:0;
+    }
+  
+    .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    // pointer-events: none;
+}
+    .line{
+        border-bottom: 3px solid green;
+    }
+    .box-shadow{
+        transition: .3s;
+    }
+    
+    
+    
+    .box{
+        margin-top: 12%;
+    }
+    .single-content{
+        position: relative;
+        transition: .3s;
+        box-shadow: 10px 20px 20px rgba(0,0,0,0.8);
+    }
+    .single-content .text-content, .single-content:after{
+        position: absolute;
+        left:20px;
+        right:20px;
+    }
+    .single-content:after{
+        content:'';
+        display:block;
+        background: rgba(3, 13, 41, 0.99);
+        top:20px;
+        bottom:20px;
+        opacity: 0;
+        transform: rotate3d(-1,1,0,100deg);
+        transition: .4s;
+    }
+    .single-content:hover:after{
+        opacity:0.9;
+        transform:rotate3d(0,0,0,0deg);
+    }
+    .single-content img{
+        width: 100%;
+        height:auto;
+    }
+    .text-content{
+        top:45%;
+        opacity:0;
+        z-index: 1;
+        transform: translate(10%,-30%);
+        transition: .3s;
+        text-align: center;
+        color: #17ea17;
+    }
+    
+    .text-content h4{
+        font-family: sans-serif;
+    }
+    
+    .single-content:hover .text-content{
+        opacity: 1;
+        content: 'English Language';
+        transform: translate(0,-50%);
+        transition-delay: 3s;
+    }
+      
+    
+    .classes{
+     
+           margin-top: 50px;
+       
+    }
+  
+    .classes :hover{
+        background: rgba(3, 13, 41, 0.97);
+        color:white;
+     
+    }
+    body{
+        font-size: 13px;
+    }
+            }
+     
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ /* header and menu codes */
+  .classes{
+        margin-top: 60px;
+        position:absolute;
+        margin-left:800px;
+    }
+        }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+  
+}
+            a{
+                color:#171515;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            .tab_color{
+                background: rgba(3, 13, 41, 0.92);
+                color:white;
+            }
+            .border_board{
+                border:2px solid rgba(3, 13, 41, 0.92);
+            }
+            .border_board:hover{
+                background: rgba(3, 13, 41, 0.92);
+                color: white;
+            }  
+              .img{
+        background-image: url('images/aboutus.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:200px;
+        position: absolute;
+    }.prin{
+        margin-top:230px;
+    } .form_registration:hover{
+                background-color: #1dbf1d;
+            }
+ 
+      </style>
+    </head>
+<body>
+        <header>
+        <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          
+          <!--menu header start second-menu-->
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdownMenuLink" aria-controls="navbarDropdownMenuLink" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarDropdownMenuLink">
+      <ul class="navbar-nav mli">
+<li class="nav-item ">
+          <a class="nav-link" href="index%20(2).html">Home</a>
+        </li>
+        
+<li class="nav-item active">
+          <a class="nav-link" href="About-Us.html">About</a>
+        </li>
+     <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link line" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Admission</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Admission.html">Apply For Admission</a>
+          <a class="dropdown-item" href="fee.html">Fee</a>
+          <a class="dropdown-item" href="#">Entrance Examination</a>
+          <a class="dropdown-item" href="#">online Application</a>
+        </div>
+      </li>
+                
+ <li class="nav-item dropdown">
+        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Portal</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Student Portal</a>
+          <a class="dropdown-item" href="#">Staff Portal</a>
+          <a class="dropdown-item" href="#">Parent Portal</a>
+          <a class="dropdown-item" href="#">New Student signup</a>
+        </div>
+      </li>
+               
+                
+                
+               
+                
+<li class="nav-item ">
+          <a class="nav-link" href="Boarding.html">Boarding</a>
+        </li>
+         <li class="nav-item"><img src="images/sch-logo.png" class="Img-logo"></li>
+        <li class="nav-item dropdown">
+        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Academics</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="school_anthem.html" class="dropdown-item">School Anthem</a>
+                        <a href="learning_area.html" class="dropdown-item">Learning Environment</a>
+                        <a href="library.html" class="dropdown-item">Library</a>
+                        <a href="Termdate.html"class="dropdown-item">Term Date</a></div>
+                </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">News</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="Event.html" class="dropdown-item">Events</a>
+                        <a href="newsletter.html" class="dropdown-item">Newsletter</a>
+                        <a href="https://porchcrew.redeemershighschool.com" class="dropdown-item">RHS Porchcrew</a>
+                    </div>
+                </li>
+                
+      
+        
+        <li class="nav-item dropdown">
+        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Pastoral</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a href="Student_life.html" class="dropdown-item">Student Life</a>
+                        <a href="Alumin.html" class="dropdown-item">Alumin</a>                        
+                        <a href="pastoral.html"class="dropdown-item">Pastoral Care</a>
+                  </div>
+                </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Gallery</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a href="facilities.html" class="dropdown-item">Facilities</a>
+                        <a href="learning_area.html" class="dropdown-item">learning Area</a>
+                        <a href="sports.html" class="dropdown-item">Sports</a>
+                        <a href="Vocational_art.html"class="dropdown-item">Vocational Studies</a>
+                        <a href="counselling.html"class="dropdown-item">Counselling Unit</a>
+            <a href="#"class="dropdown-item">Publication</a></div>
+                </li>
+</ul>
+</div>
+</div>
+            </nav></div>
+             </header>
+    
+   <div class="container-fluid img">
+       <div class="row">
+       <div class="col">
+            <h2 class="text-center grey-text pt-5"> ADMISSION</h2>
+       </div>
+      
+       </div>
+   </div>
+   
+  
+ 
+
+<div class="container">
+    
+    <div class="row">
+       
+
+   <div class="col-sm-12 col-md-12 col-lg-12 prin_top text-justify prin">
+          
+           
+             
+    </div><div class="col-md-12 col-lg-3 classes mt-5">
+            
+             <div class=" col-md-12 col-lg-12 text-center card pt-2 hover_left text-black">
+                  <p>Apply For Admission</p>
+              </div>
+                <div class=" col-md-12 col-lg-12 text-center card pt-2 hover_left text-black">
+                  <p>Admission List</p>
+              </div> 
+                 <div class=" col-md-12 col-lg-12 text-center card pt-2 hover_left text-black">
+                  <p>Entrance Examination</p>
+                </div>
+                 <div class=" col-md-12 col-lg-12 text-center card pt-2 hover_left text-black">
+                 <p>Online Application</p>
+                </div>
+                
+          </div>    
+        <!--Images Of the board Of governor--> <div class="col-sm-12 col-md-12 col-lg-12">
+        <h3 class="text-center btn tab_color">ADMISSION</h3><br><br></div>
+            <div class="col-md-8 mb-5">
+                   <p>Application form are obtainable from the school, school website or any of our designated examination centres. Application form will only be sold to parent whose child meets the entry age criteria.
+                    Application forms are to be submitted together with a copy of the child’s birth certificate and the most recent academic report from the child’s current school. Incomplete application form will not be considered.
+                    A written examination is conducted followed by an oral interview before admission. On the successful performance of the candidate, a letter of admission is issued.</p>
+                  <p>Registration takes place after full payment of the school fees.
+                    For more details, please feel free to visit the school or call +2349030932036, +2348033330935</p>
+          <button class="btn tab_color">ENTRY REQUIREMENTS</button><br><br>
+          <p>The School is open to all tribes, races, sexes, denominations and faiths. Students from the ages of ten (10) and above are welcome. Incoming students must have finished the compulsory six years of primary school. The vision is to provide education that touches the lives of the students and prepare them to face the challenges of life.</p>
+          <button class="btn form_registration w-100 tab_color">Apply Now !!!</button>
+           </div>
+                 <div class="col-md-4">
+               <img src="images/structure.jpg" class="img-responsive" >
+                 </div>
+          </div>
+          </div>
+          
+         
+        
+    
+ <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 footer-bg text-white">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+    <div class="col-md-6  col-lg-3  mb-md-0 mb-3 text-left text-white">
+<img src="images/sch-logo.png" class="img-responsives ml-5">
+        <h4>Redeemer's <span style="color:#1dbf1d">High</span> School</h4>
+        <!-- Content -->
+     
+      <p>Redeemer’s High School is a private Mission School established by the Redeemed Christian Church of God. It is a unique Secondary School.</p>
+
+  
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6  col-lg-3  mb-md-0 mb-3 ">
+
+        <!-- Links -->
+          <div> <h5 class="text-uppercase text-center text-white">Quick Links</h5></div>
+
+        <ul class="list-unstyled">
+            <li class="list"><a href="">Boarding</a></li>
+            <li class="list"><a href="">Admission</a></li>
+            <li class="list"><a href="">Portal</a></li>
+            <li class="list"><a href="">Pay Fee</a></li>
+            <li class="list"><a href="">Gallery</a></li>
+            <li class="list"><a href="">News</a></li>
+            <li class="list"><a href="">Meet Principal</a></li>
+           
+        </ul>
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+<div class="col-md-6  col-lg-3  mb-md-0 mb-3 text-white h5">
+   <h6>Testimonies</h6>
+   <blockquote cite="http://www.worldwildlife.org/who/index.html">
+" The school did not only help my ward education it also help my ward in his spiritual life."
+    </blockquote>
+    <strong  style="color: rgb(198, 184, 184)">- Mr Adedapo</strong>
+    <br>
+    <br>
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">  "My husband and son came with me to redeemer's high school. We felt the magic immediately."
+</blockquote>
+    <strong  style="color: rgb(198, 184, 184)">- Mrs Iyanda</strong>
+</div>
+   <!-- Grid column -->
+      <div class="col-md-6  col-lg-3  mb-md-0 mb-3 text-white h5">
+
+        <!-- Links -->
+        
+           <h6><i class="fas fa-map-marker-alt amber-text pr-3" aria-hidden="true"></i> Our Address</h6>
+        <p>KM 46 Lagos - Ibadan Expressway, Redemption Camp, Ogun State, Nigeria</p>
+           
+             <h6 ><i class="fas fa-phone amber-text pr-3" aria-hidden="true"></i>Phone Line</h6>
+           <p style="color: rgb(198, 184, 184)">+2349030932036</p>
+           
+             <h6><i class="fas fa-user-clock amber-text pr-3" aria-hidden="true"></i>School Hours</h6>
+           <p style="color: rgb(198, 184, 184)">Monday - Friday: 08:00am-04:00pm</p>
+
+      </div>
+        <!-- footer icon-->
+
+             <div class="col-md-12 mb-md-0 mb-3 text-right">
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+    <a href="https://redeemershighschool.com/"  style="color: rgb(198, 184, 184)">Redeemershighschool.com</a>
+  </div>
+  <!-- Copyright -->
+
+<!-- Footer -->
+    </footer>
+<!--footer end-->
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/typewriter.js"></script>
+  </body>
+</html>
